@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movis</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            My Movie list
+        </h1>
+    </header>
+
+    <main>
+        <form id="form">
+            <fieldset>
+                <legend>Add Movie</legend>
+               <label for="moviename">Name</label> 
+               <input type="text" id="moviename">
+               <label for="moviecategory">Image</label>
+               <select  id="moviecategory">
+                   <option value="Action">Action</option>
+                   <option value="Adventure">Adventure</option>
+                   <option value="Animation">Animation</option>
+                   <option value="Comedy">Comedy</option>
+                   <option value="Detective">Detective</option>
+                   <option value="Fantasy">Fantasy</option>
+                   <option value="History">History</option>
+                   <option value="Horror">Horror</option>
+                   <option value="Musical">Musical</option>
+                   <option value="Pirate">Pirate</option>
+                   <option value="Romantic">Romantic</option>
+                   <option value="SCI-FI">SCI-FI</option>
+                   <option value="">War</option>
+                   <option value="">Western</option>
+               </select>
+               <label for="issueyear">Release</label>
+               <input type="number" id="date">
+               <input type="submit" value="Save" id="save">
+            </fieldset>
+        </form>
+<div>
+    <button onclick="clearLs()" >ClearLs</button>
+        <table id="table">
+
+        </table>
+    </div>
+    </main>
+    <footer>
+        <h1>&copy;My Movis</h1>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
